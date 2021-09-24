@@ -88,6 +88,12 @@ fun main() {
     }
     println()
 
+    // 0~1
+    for (i in 0 until 2) {
+        print(listA[i].toString() + " ")
+    }
+    println()
+
     for (i in 0..2 step 2) {
         print(listA[i].toString() + " ")
     }
